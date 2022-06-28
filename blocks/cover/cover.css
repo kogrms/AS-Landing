@@ -1,0 +1,55 @@
+.cover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-top: 92px;
+  background-image: url("../../images/cover-background_x2_cmprsd.jpg");
+  background-size: cover;
+}
+
+.cover:before {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  display: block;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  transition: opacity 200ms ease-in-out;
+}
+
+.cover:hover:before {
+  opacity: 0.8;
+}
+
+@media (min-width: 1280px) {
+  .cover {
+    width: 1184px;
+    min-height: 740px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .cover {
+    min-height: 62.5vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .cover {
+    margin-top: 66px;
+    min-height: 62.5vw;
+  }
+}
+

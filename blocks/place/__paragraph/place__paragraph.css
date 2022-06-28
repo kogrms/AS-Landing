@@ -1,0 +1,19 @@
+.place__paragraph {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.63;
+}
+
+.place__paragraph:nth-of-type(1n+2) {
+  padding-top: 26px;
+}
+
+@media (max-width: 1023px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
