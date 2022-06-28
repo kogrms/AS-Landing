@@ -1,16 +1,111 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mesto Russia</title>
+  <title>Chrome extention</title>
 </head>
 <body>
   <div class="page">
     <header class="header">
       <div class="header__logo"></div>
+      <nav class="main-menu">
+        <ul>
+          <li><a href="#" class="main-menu__item">Overview</a></li>
+          <li><a href="#" class="main-menu__item">Features</a></li>
+          <li><a href="#" class="main-menu__item">Plans</a></li>
+          <li><a href="#" class="main-menu__item">Pricing</a></li>
+        </ul>
+      </nav>
+      <button type="button" class="button-login" aria-label="Sign in button">Sign in</button>
+      <button type="button" class="button-login" aria-label="Try extention button">Try Extention now</button>
     </header>
     <main class="content">
+
+      <section class="title">
+        <div class="title__container">
+          <div class="title__left">
+            <h1 class="title__heading">Enrich Play Store with mobile app analytics</h1>
+            <div class="title__text">
+              <p>Get more information in less time:</p>
+              <ul class="title__points">
+                <li>Key metrics</li>
+                <li>Screenshots</li>
+                <li>Personal Collections</li>
+              </ul>
+            </div>
+            <button type="button" class="button-create-acc" aria-label="Install button">Install Chrome Extension now</button>
+            <div class="cta">
+              <p class="cta__text">Don&#8217;t have an account?</p>
+              <a href="#" class="cta__link">Sign up for free</a>
+            </div>
+          </div>
+          <div class="title__pic">
+          </div>
+        </div>
+      </section>
+
+      <section class="cards">
+        <div class="cards__container">
+          <div class="card">
+            <div class="see-more">
+              <p class="see-more__text">See what you can do with AppstoreSpy Extension</p>
+              <div class="see-more__icon"></div>
+            </div>
+          </div>
+          <div class="card">
+          </div>
+          <div class="card">
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="features__container">
+          <div class="feature">
+          </div>
+          <div class="feature">
+          </div>
+          <div class="feature">
+          </div>
+        </div>
+      </section>
+
+      <section class="plans">
+        <div class="plans__container">
+          <div class="plans__title">
+            <h2 class="plans__heading"></h2>
+            <p class="plans__text"></p>
+          </div>
+          <div class="plan">
+          </div>
+          <div class="plan">
+          </div>
+        </div>
+      </section>
+
+      <div class="">
+      </div>
+
+
+
+      <div class="profile__avatar-container">
+        <button type="button" class="profile__avatar-edit-button" aria-label="Кнопка изменения аватара"></button>
+        <img class="profile__avatar" src="<%=require('./images/avatar_kusto.jpg')%>" alt="Аватар">
+      </div>
+      <div class="profile__info">
+        <div class="profile__name-wrap">
+          <h1 class="profile__name">Жак-Ив Кусто</h1>
+          <button type="button" class="profile__edit-button" aria-label="Кнопка редактирования профиля"></button>
+        </div>
+        <p class="profile__position">Исследователь океана</p>
+      </div>
+      <button type="button" class="profile__add-button" aria-label="Кнопка добавления фотографии"></button>
+
+    <section class="cards">
+      <ul class="cards__container">
+      </ul>
+    </section>
       <section class="profile">
         <div class="profile__avatar-container">
           <button type="button" class="profile__avatar-edit-button" aria-label="Кнопка изменения аватара"></button>
