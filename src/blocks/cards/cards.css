@@ -1,0 +1,15 @@
+.cards {
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .cards {
+    padding-top: 36px;
+  }
+}

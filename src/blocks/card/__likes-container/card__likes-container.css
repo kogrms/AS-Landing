@@ -1,0 +1,15 @@
+.card__likes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: 0;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  margin-right: 16px;
+  width: 30px;
+  height: 35px;
+}
