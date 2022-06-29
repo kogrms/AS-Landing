@@ -1,0 +1,8 @@
+.header__container {
+  @include no-margin;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  padding-left: 24px;
+}

@@ -1,0 +1,7 @@
+.main-menu {
+  @include no-margin;
+  @include flex-row;
+  width: 361px;
+  padding-top: 22px;
+  padding-left: 66px;
+}

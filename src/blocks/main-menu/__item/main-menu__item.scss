@@ -1,0 +1,7 @@
+.main-menu__item {
+  @include no-margin;
+  @include text-main-menu;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

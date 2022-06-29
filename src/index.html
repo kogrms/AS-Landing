@@ -8,17 +8,19 @@
 <body>
   <div class="page">
     <header class="header">
-      <div class="header__logo"></div>
-      <nav class="main-menu">
-        <ul class="main-menu__items">
-          <li><a href="#" class="main-menu__item">Overview</a></li>
-          <li><a href="#" class="main-menu__item">Features</a></li>
-          <li><a href="#" class="main-menu__item">Plans</a></li>
-          <li><a href="#" class="main-menu__item">Pricing</a></li>
-        </ul>
-      </nav>
-      <button type="button" class="button-login" aria-label="Sign in button">Sign in</button>
-      <button type="button" class="button-login" aria-label="Try extention button">Try Extention now</button>
+      <div class="header__container">
+        <div class="header__logo"></div>
+        <nav class="main-menu">
+          <a href="#" class="main-menu__item">Overview</a>
+          <a href="#" class="main-menu__item">Features</a>
+          <a href="#" class="main-menu__item">Plans</a>
+          <a href="#" class="main-menu__item">Pricing</a>
+        </nav>
+      </div>
+      <div class="header__buttons">
+        <button type="button" class="header__button" aria-label="Sign in button">Sign in</button>
+        <button type="button" class="header__button" aria-label="Try extention button">Try Extention now</button>
+      </div>
     </header>
     <main class="content">
 
@@ -26,15 +28,15 @@
         <div class="title__container">
           <div class="title__left">
             <h1 class="title__heading">Enrich Play Store with mobile app analytics</h1>
-            <div class="title__text">
-              <p>Get more information in less time:</p>
+            <div class="title__info">
+              <p class="title__text">Get more information in less time:</p>
               <ul class="title__points">
-                <li>Key metrics</li>
-                <li>Screenshots</li>
-                <li>Personal Collections</li>
+                <li class="title__point">Key metrics</li>
+                <li class="title__point">Screenshots</li>
+                <li class="title__point">Personal Collections</li>
               </ul>
             </div>
-            <button type="button" class="button-create-acc" aria-label="Install button">Install Chrome Extension now</button>
+            <button type="button" class="title__button" aria-label="Install button">Install Chrome Extension now</button>
             <div class="cta-2">
               <p class="cta-2__text">Don&#8217;t have an account?</p>
               <a href="#" class="cta-2__link">Sign up for free</a>
@@ -56,7 +58,7 @@
 
       <section class="card-container no-more-clicks">
         <div class="card">
-          <div class="card__caption-container card__caption-container_position_left">
+          <div class="card__captions card__captions_position_left">
             <p class="card__caption">Category</p>
             <p class="card__caption">Release date & Last update</p>
             <p class="card__caption">Top Countries</p>
@@ -65,20 +67,20 @@
             <div class="card__line"></div>
           </div>
           <img class="card__image" src="" alt="">
-          <div class="card__caption-container card__caption-container_position_right">
-            <div class="bg">
-              <p class="bg__title">App&#8217;s age:  background color</p>
-              <div class="bg__item">
-                <div class="bg__sign bg__sign_color_green"></div>
-                <p class="bg__caption">&#8249;1 month</p>
+          <div class="card__captions card__captions_position_right">
+            <div class="age-bg">
+              <p class="age-bg__title">App&#8217;s age:  background color</p>
+              <div class="age-bg__item">
+                <div class="age-bg__sign age-bg__sign_color_green"></div>
+                <p class="age-bg__caption">&#8249;1 month</p>
               </div>
-              <div class="bg__item">
-                <div class="bg__sign bg__sign_color_yellow"></div>
-                <p class="bg__caption">&#8249;1 year</p>
+              <div class="age-bg__item">
+                <div class="age-bg__sign age-bg__sign_color_yellow"></div>
+                <p class="age-bg__caption">&#8249;1 year</p>
               </div>
-              <div class="bg__item">
-                <div class="bg__sign bg__sign_color_red"></div>
-                <p class="bg__caption">&#8249;1 year</p>
+              <div class="age-bg__item">
+                <div class="age-bg__sign age-bg__sign_color_red"></div>
+                <p class="age-bg__caption">&#8249;1 year</p>
               </div>
             </div>
             <p class="card__caption">Developer: total apps & installs</p>
@@ -153,25 +155,25 @@
           <p class="plans__text"></p>
         </div>
         <div class="plans__container">
-          <div class="plan plan__free">
+          <div class="plan free">
             <img class="plan__image" src="" alt="Card">
             <div class="plan__title">
               <h3 class="plan__heading">Free plan</h3>
-              <button class="button_open_db_36" aria-label="Try now button">Try now</button>
+              <button class="plan__button" aria-label="Try now button">Try now</button>
               <p class="plan__text">Start exploring the  App&#8217;s metrics for free:</p>
               <ul class="plan__points">
                 <li class="plan__point">App&#8217;s age highlights:</li>
-              <div class="bg__item">
-                <div class="bg__sign bg__sign_color_green"></div>
-                <p class="bg__caption">&#8249;1 month</p>
+              <div class="age-bg__item">
+                <div class="age-bg__sign age-bg__sign_color_green"></div>
+                <p class="age-bg__caption">&#8249;1 month</p>
               </div>
-              <div class="bg__item">
-                <div class="bg__sign bg__sign_color_yellow"></div>
-                <p class="bg__caption">&#8249;1 year</p>
+              <div class="age-bg__item">
+                <div class="age-bg__sign age-bg__sign_color_yellow"></div>
+                <p class="age-bg__caption">&#8249;1 year</p>
               </div>
-              <div class="bg__item">
-                <div class="bg__sign bg__sign_color_red"></div>
-                <p class="bg__caption">&#8249;1 year</p>
+              <div class="age-bg__item">
+                <div class="age-bg__sign age-bg__sign_color_red"></div>
+                <p class="age-bg__caption">&#8249;1 year</p>
               </div>
                 <li class="plan__point">Category</li>
                 <li class="plan__point">Installs total</li>
@@ -179,11 +181,11 @@
               </ul>
             </div>
           </div>
-          <div class="plan plan__premium">
+          <div class="plan premium">
             <img class="plan__image" src="" alt="Card">
             <div class="plan__title">
               <h3 class="plan__heading_type_premium">Premium plan</h3>
-              <button class="button_open_db_36" aria-label="Get Started button">Get Started</button>
+              <button class="plan__button" aria-label="Get Started button">Get Started</button>
               <a href="#" class="plan__link">See more Plans</a>
               <ul class="plan__points">
                 <li class="plan__point">All free features</li>
@@ -201,7 +203,7 @@
 
       <section class="cta">
         <h2 class="cta__title">Ready to get started?</h2>
-        <button type="button" class="button-create-acc" aria-label="Try Chrome Extension now button">Try Chrome Extension now</button>
+        <button type="button" class="cta__button" aria-label="Try Chrome Extension now button">Try Chrome Extension now</button>
       </section>
 
       <footer class="footer">

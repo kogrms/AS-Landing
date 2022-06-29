@@ -1,0 +1,12 @@
+.page {
+  @include no-margin;
+  width: 100%;
+  // width: 1920px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: $white;
+}
+
+
