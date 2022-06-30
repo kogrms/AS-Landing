@@ -15,7 +15,6 @@
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  width: 100%;
 }
 
 // text parameters
@@ -133,3 +132,29 @@
   color: $disabled;
 }
 
+// reset button default styles
+@mixin button-reset {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+// buttons text
+@mixin button-s-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+@mixin button-m-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+@mixin button-l-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}

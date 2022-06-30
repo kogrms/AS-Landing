@@ -1,0 +1,4 @@
+.button-l {
+  @include button-l-text;
+  padding: $button-l-padding;
+}

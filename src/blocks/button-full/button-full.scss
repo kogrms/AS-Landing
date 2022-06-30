@@ -1,0 +1,12 @@
+.button-full {
+  @include no-margin;
+  @include button-reset;
+  border-radius: $button-border-radius;
+  border: none;
+  color: $white;
+  background-color: $blue_primary;
+
+   &:hover {
+    background-color: $dark_primary;
+   }
+}

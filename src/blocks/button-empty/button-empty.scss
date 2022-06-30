@@ -1,0 +1,11 @@
+.button-empty {
+  @include no-margin;
+  @include button-reset;
+  border-radius: $button-border-radius;
+  border: 1px solid $corners;
+  color: $blue_primary;
+
+  &:hover {
+    background-color: $filter_bg;
+   }
+}

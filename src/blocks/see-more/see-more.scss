@@ -1,6 +1,7 @@
 .see-more {
   @include no-margin;
   @include flex-column;
+  width: 100%;
   align-items: center;
   max-width: $content-width-1920;
   border-top: 1px solid $corners;

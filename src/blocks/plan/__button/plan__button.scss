@@ -1,5 +1,4 @@
 .plan__button {
   @include no-margin;
-  height: 40px;
-  width: 130px;
+  max-width: fit-content;
 }

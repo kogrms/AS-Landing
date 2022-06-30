@@ -1,5 +1,6 @@
 .content {
   @include no-margin;
   @include flex-column;
+  width: 100%;
   align-items: center;
 }
