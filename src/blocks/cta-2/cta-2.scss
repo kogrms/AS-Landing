@@ -1,3 +1,5 @@
 .cta-2 {
-  @include no-margin
+  @include no-margin;
+  @include flex-row;
+  padding-top: 38px;
 }

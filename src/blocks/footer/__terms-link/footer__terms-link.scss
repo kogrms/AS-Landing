@@ -1,4 +1,6 @@
 .footer__terms-link {
   @include no-margin;
+  @include terms-copyright;
   text-transform: uppercase;
+  padding-left: 42px;
 }

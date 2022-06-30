@@ -1,3 +1,4 @@
 .title__heading {
-  @include no-margin
+  @include no-margin;
+  @include text-h1;
 }

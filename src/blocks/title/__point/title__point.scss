@@ -1,3 +1,14 @@
 .title__point {
-  @include no-margin
+  @include no-margin;
+  padding-top: 8px;
+
+  &:before {
+    content: url(/src/images/tick.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 17.6px;
+    height: 13.4px;
+    padding-right: 19.2px;
+  }
 }

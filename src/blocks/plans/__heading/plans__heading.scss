@@ -1,3 +1,5 @@
 .plans__heading {
   @include no-margin;
+  @include text-card-heading;
+  color: $table;
 }

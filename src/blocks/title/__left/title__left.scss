@@ -1,3 +1,6 @@
 .title__left {
-  @include no-margin
+  @include no-margin;
+  @include flex-column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }

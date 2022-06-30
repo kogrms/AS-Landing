@@ -1,3 +1,6 @@
 .plans__title {
   @include no-margin;
+  @include flex-column;
+  align-items: center;
+  max-width: 551px;
 }

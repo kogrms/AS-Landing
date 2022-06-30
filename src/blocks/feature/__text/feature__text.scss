@@ -1,3 +1,5 @@
 .feature__text {
   @include no-margin;
+  @include text-feature-text;
+  padding-top: 16px;
 }

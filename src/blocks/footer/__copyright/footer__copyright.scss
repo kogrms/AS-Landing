@@ -1,3 +1,7 @@
 .footer__copyright {
   @include no-margin;
+  @include copyright;
+  padding-top: 32px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid $corners;
 }

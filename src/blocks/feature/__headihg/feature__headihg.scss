@@ -1,3 +1,5 @@
 .feature__headihg {
   @include no-margin;
+  @include text-feature-heading;
+  padding-top: 36px;
 }

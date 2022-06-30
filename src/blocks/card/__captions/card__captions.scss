@@ -1,3 +1,5 @@
 .card__captions {
-  @include no-margin
+  @include no-margin;
+  @include text-table;
+  @include flex-column;
 }

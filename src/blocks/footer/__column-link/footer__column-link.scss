@@ -1,3 +1,5 @@
 .footer__column-link {
   @include no-margin;
+  @include text-main-menu;
+  padding-top: 12px;
 }

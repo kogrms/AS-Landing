@@ -1,3 +1,7 @@
 .card-container {
-  @include no-margin
+  @include no-margin;
+  @include flex-row;
+  width: 100%;
+  max-width: $content-width-1920;
+  padding-bottom: 175px;
 }

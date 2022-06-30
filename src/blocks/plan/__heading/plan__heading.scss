@@ -1,3 +1,5 @@
 .plan__heading {
   @include no-margin;
+  @include plan-heading;
+  padding-bottom: 17px;
 }

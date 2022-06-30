@@ -1,3 +1,4 @@
 .cta-2__text {
-  @include no-margin
+  @include no-margin;
+  @include text-cta-2;
 }

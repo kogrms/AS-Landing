@@ -1,3 +1,6 @@
 .title__info {
-  @include no-margin
+  @include no-margin;
+  @include text-title-info;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }

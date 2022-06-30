@@ -1,22 +1,24 @@
 // layout
-
 @mixin no-margin {
   margin: 0;
   padding: 0;
   border: none;
   text-decoration: none;
 }
-
 @mixin flex-row {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
+}
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
   width: 100%;
 }
 
 // text parameters
-
 @mixin text-main-menu {
   font-style: normal;
   font-weight: 400;
@@ -24,3 +26,110 @@
   line-height: 19px;
   color: $table
 }
+@mixin text-h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: 0.003em;
+  color: $main;
+}
+@mixin text-title-info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: $secondary;
+}
+@mixin text-cta-2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: $secondary;
+}
+@mixin text-card-heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  color: $main;
+}
+@mixin text-feature-heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: $main;
+}
+@mixin text-feature-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: $secondary;
+}
+@mixin text-card-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: $secondary;
+}
+@mixin text-table {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: $table;
+}
+@mixin text-bg-caption {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: $table;
+}
+@mixin plan-heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  color: $main;
+}
+@mixin plan-points {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: $table;
+}
+@mixin plan-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: $table;
+}
+@mixin plan-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: $blue_primary;
+}
+@mixin copyright {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: $disabled;
+}
+@mixin terms-copyright {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: $disabled;
+}
+

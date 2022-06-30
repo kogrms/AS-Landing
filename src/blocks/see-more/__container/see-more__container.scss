@@ -1,0 +1,6 @@
+.see-more__container {
+  @include no-margin;
+  @include flex-column;
+  align-items: center;
+  max-width: 360px;
+}

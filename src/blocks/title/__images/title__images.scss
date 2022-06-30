@@ -1,3 +1,4 @@
 .title__images {
-  @include no-margin
+  @include no-margin;
+  position: relative;
 }

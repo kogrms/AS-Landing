@@ -1,6 +1,7 @@
 .header {
   @include no-margin;
   @include flex-row;
-  height: 64px;
+  width: 100%;
+  min-height: $header-footer-height;
   box-shadow: 0px 2px 8px #0000001a;
 }

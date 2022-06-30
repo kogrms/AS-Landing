@@ -1,3 +1,6 @@
 .footer__column-links {
   @include no-margin;
+  @include flex-column;
+  align-items: flex-start;
+  padding-top: 4px;
 }

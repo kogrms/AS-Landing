@@ -1,3 +1,9 @@
 .features__container {
   @include no-margin;
+  max-width: $content-width-1920;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 70px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }

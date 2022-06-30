@@ -1,3 +1,6 @@
 .see-more__icon {
-  @include no-margin
+  @include no-margin;
+  background-image: url(/src/images/tick_down.svg);
+  width: 15px;
+  height: 9.26px;
 }

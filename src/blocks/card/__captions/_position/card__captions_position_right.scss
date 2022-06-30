@@ -1,3 +1,6 @@
 .card__captions_position_right {
-  @include no-margin
+  @include no-margin;
+  align-items: flex-start;
+  max-width: 250px;
+  padding-top: 95px;
 }

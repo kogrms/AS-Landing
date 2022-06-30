@@ -1,0 +1,5 @@
+.footer__container {
+  @include no-margin;
+  padding-top: 44px;
+  max-width: $content-width-1920;
+}

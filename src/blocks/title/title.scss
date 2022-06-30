@@ -1,3 +1,6 @@
 .title {
-  @include no-margin
+  @include no-margin;
+  @include flex-column;
+  align-items: center;
+  height: 676px;
 }

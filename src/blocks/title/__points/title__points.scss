@@ -1,3 +1,5 @@
 .title__points {
-  @include no-margin
+  @include no-margin;
+  padding-top: 16px;
+  list-style: none;
 }

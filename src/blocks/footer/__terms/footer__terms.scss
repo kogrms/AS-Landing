@@ -1,3 +1,7 @@
 .footer__terms {
   @include no-margin;
+  @include flex-row;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: $header-footer-height;
 }

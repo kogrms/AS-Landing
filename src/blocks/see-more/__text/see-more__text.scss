@@ -1,3 +1,5 @@
 .see-more__text {
-  @include no-margin
+  @include no-margin;
+  @include text-cta-2;
+  padding-bottom: 12.37px;
 }

@@ -1,3 +1,26 @@
 .age-bg__caption {
   @include no-margin;
+  @include text-bg-caption;
+  padding-top: 6px;
+
+  &:nth-of-type(1):before {
+    content: url(/src/images/sign_green.svg);
+    width: 10px;
+    height: 10px;
+    padding-right: 7px;
+  }
+
+  &:nth-of-type(2):before {
+    content: url(/src/images/sign_yellow.svg);
+    width: 10px;
+    height: 10px;
+    padding-right: 7px;
+  }
+
+  &:nth-of-type(3):before {
+    content: url(/src/images/sign_red.svg);
+    width: 10px;
+    height: 10px;
+    padding-right: 7px;
+  }
 }

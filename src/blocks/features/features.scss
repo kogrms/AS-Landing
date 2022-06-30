@@ -1,3 +1,7 @@
 .features {
   @include no-margin;
+  @include flex-column;
+  align-items: center;
+  background-color: $bg_gray;
+  width: 100%;
 }

@@ -1,3 +1,5 @@
 .card__text {
   @include no-margin;
+  @include text-card-text;
+  padding-top: 20px;
 }

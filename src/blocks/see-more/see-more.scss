@@ -1,3 +1,9 @@
 .see-more {
   @include no-margin;
+  @include flex-column;
+  align-items: center;
+  max-width: $content-width-1920;
+  border-top: 1px solid $corners;
+  padding-top: 52px;
+  padding-bottom: 85px;
 }

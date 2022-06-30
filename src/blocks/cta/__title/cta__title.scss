@@ -1,3 +1,6 @@
 .cta__title {
   @include no-margin;
+  @include text-card-heading;
+  color: $table;
+  padding-bottom: 36px;
 }

@@ -1,3 +1,15 @@
 .plan__point {
   @include no-margin;
+  @include plan-points;
+  padding-top: 6px;
+
+  &:before {
+    content: url(/src/images/tick_table.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 13.2px;
+    height: 10.5px;
+    padding-right: 14.4px;
+  }
 }

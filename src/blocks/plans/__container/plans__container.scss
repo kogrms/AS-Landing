@@ -1,3 +1,10 @@
 .plans__container {
   @include no-margin;
+  width: $content-width-1920;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 66px;
+  padding-top: 50px;
+  padding-bottom: 150px;
+  border-bottom: 1px solid $corners;
 }

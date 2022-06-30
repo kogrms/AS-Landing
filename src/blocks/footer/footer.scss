@@ -1,3 +1,7 @@
 .footer {
   @include no-margin;
+  @include flex-column;
+  align-items: center;
+  width: 100%;
+  background-color: $bg_gray;
 }
