@@ -32,21 +32,13 @@ module.exports = {
             type: 'asset/resource'
           },
           {
-            test: /\.css$/,
+            test: /\.s[ac]ss$/i,
             use: [MiniCssExtractPlugin.loader, {
               loader: 'css-loader',
               options: { importLoaders: 1 }
             },
-            'postcss-loader']
+            'sass-loader']
           },
-          {
-            test: /\.scss$/,
-            use: [
-                'style-loader',
-                'css-loader',
-                'sass-loader'
-            ]
-          }
         ]
     },
     plugins: [
