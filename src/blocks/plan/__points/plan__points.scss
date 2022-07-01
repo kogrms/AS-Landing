@@ -1,13 +1,4 @@
 .plan__points {
   @include no-margin;
   list-style: none;
-  padding-top: px;
-
-  .age-bg__caption {
-    padding-top: 13px;
-
-    &:last-of-type {
-      padding-bottom: 6px;
-    }
-  }
 }
