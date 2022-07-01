@@ -1,2 +1,3 @@
-# AS Landing
-For Chrome extention
+# AppStoreSpy Landing
+## Landing page for AppStoreSpy Chrome extention
+[Link](https://kogrms.github.io/AS-Landing/)
