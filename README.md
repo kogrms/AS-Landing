@@ -1,3 +1,3 @@
 # AppStoreSpy
 ## Landing page for AppStoreSpy Chrome extention
-[Link](https://kogrms.github.io/AS-Landing/)
+Adaptive [website](https://kogrms.github.io/AS-Landing/) made using SCSS and Webpack
