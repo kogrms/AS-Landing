@@ -1,6 +1,26 @@
 .card__image {
   @include no-margin;
-  display: block;
+  display: flex;
+  align-self: center;
   position: relative;
   top: -5px;
+}
+
+.card__image_card {
+    width: 220px;
+
+    // @media screen and (max-width: 1280px) {
+    //   height: auto;
+    //   width: (17.1vw);
+    // }
+
+  .card__image_screens {
+    width: 672px;
+    height: 465px;
+  }
+
+  .card__image_group {
+    width: 678px;
+    height: 437px;
+  }
 }

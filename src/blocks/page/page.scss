@@ -1,12 +1,19 @@
 .page {
   @include no-margin;
   width: 100%;
-  max-width: 1920px;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: 'Roboto', sans-serif;
   background-color: $white;
+
+  section {
+
+    @media screen and (max-width: 1293px) {
+    max-width: calc(100% - 48px);
+    flex-wrap: wrap;
+    }
+  }
 }
 
 
